@@ -32,5 +32,6 @@ plt.legend()
 plt.show()
 print("1AU = 149,597,870.7 km (distances from sun to the earth.), about 0.15 billion killometers.")
 time = 149597870.7
-for planet, data in planet_data.items():    per, dis = data
+for planet, data in planet_data.items():    
+    per, dis = data
     print(f"[ {planet} ]: A cycle of revolve : {per} year(s) | distance from the sun: {dis}AU -> {round(dis * time, 2)} km")
